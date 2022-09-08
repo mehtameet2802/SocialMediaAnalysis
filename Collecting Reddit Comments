@@ -23,7 +23,6 @@ reddit = praw.Reddit(
 reddit.read_only = True
 api = PushshiftAPI()
 start_epoch=int(dt.datetime(2022, 1, 1).timestamp())
-import multiprocessing as mp
 
 
 
