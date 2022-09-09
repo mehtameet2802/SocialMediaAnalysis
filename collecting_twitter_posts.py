@@ -1,4 +1,3 @@
-!pip install tweepy==4.10
 import tweepy
 import pandas as pd
 import numpy as np
@@ -13,8 +12,8 @@ from psaw import PushshiftAPI
 import datetime as dt
 start_epoch=int(dt.datetime(2022, 1, 1).timestamp())
 
-api_key = '<api_key>'
-api_key_secret = '<api_key_secret>'
+api_key = '<api_key>'  # add in your api key from your Twitter Developer Account here
+api_key_secret = '<api_key_secret>' # add in your api secret from Twitter Developer Account here
 bearer_token = '<bearer_token>'
 access_token = '<access_token>'
 access_token_secret = '<access_token_secret>'
