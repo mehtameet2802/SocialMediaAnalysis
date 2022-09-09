@@ -22,4 +22,4 @@ In order to collect the data, you will need to provide a set of API keys and acc
 * < similar requirements >
 
 
-* < selection.csv > what do they need to fill and in which file [collect_twitter_posts.py](/collect_twitter_posts.py)
+* < selection.csv > what do they need to fill and in which file [collecting_twitter_posts.py](/collecting_twitter_posts.py)
