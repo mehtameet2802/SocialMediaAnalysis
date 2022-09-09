@@ -1,5 +1,3 @@
-!pip install transformers
-!pip install ekphrasis
 from transformers import AutoModelForSequenceClassification
 from transformers import TFAutoModelForSequenceClassification
 from transformers import AutoTokenizer
