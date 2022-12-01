@@ -1,25 +1,15 @@
 # Social Media Analysis
 
-This is a set of scripts for data collection, preprocessing, and sentiment analysis for our research in the paper "Analyzing Responses to Political News Articles on Social Media" by William Opich and Swapneel Mehta.
-
-* You will need to install the following packages in a virtual environment.
-
-```
-$ pip install tweepy==4.10
-$ pip install transformers
-$ pip install ekphrasis
-
-< add in any other packages to be installed here >
-```
+This is a set of notebooks that will teach you the basics of pulling in news data and analysing sentiment from tweets using language models specialized for the task. Please follow the installation instructions in each notebook to ensure you can run these scripts out of the box.
 
 ## Twitter Developer Account
 
 In order to collect the data, you will need to provide a set of API keys and access tokens from your own [Twitter Developer Account](https://developer.twitter.com).
 
+## Extending this Tutorial
 
-## Reddit API Keys
+Contributions are very welcome for expanding on this tutorial. Please see the [example code](https://github.com/twitterdev/Twitter-API-v2-sample-code) for the Twitter API v2 to learn more about the available endpoint. 
 
-* < similar requirements >
+#### Source
 
-
-* < selection.csv > what do they need to fill and in which file [collecting_twitter_posts.py](/collecting_twitter_posts.py)
+This codebase is adapted from a set of scripts for data collection, preprocessing, and sentiment analysis for our research in the paper "Analyzing Responses to Political News Articles on Social Media" by William Opich and Swapneel Mehta.
